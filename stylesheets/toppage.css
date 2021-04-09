@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+body{
+  width: 95%;
+  margin: auto;
+}
+
+.top{
+  display: flex;
+  -webkit-justify-content : space-between;
+  margin:1%;
+}
+
+.logo {
+  color:#008000;
+  font-size: 60px;
+  font-family:"Times New Roman";
+}
+
+.logo span {
+  color:#8b4513;
+}
+
+.link {
+  line-height: 34.57px;
+}
+
+.link ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link li{
+  list-style:none;
+  font-family:"Sawarabi Mincho";
+  font-size: 18px;
+  color:#000000;
+  margin-right: 2px;
+}
+
+.link a:hover{
+  color:#C0C0C0;
+}
+
+b{
+  font-family:"Meiryo";
+  font-size :3px;
+  float: right;
+}
+
+
+.bottom ul{
+  display: flex;
+  justify-content:space-around;
+  font-size: 18px;
+  margin:0 5%;
+
+}
+
+.bottom li{
+  font-family:"Sawarabi Mincho";
+  list-style:none;
+  color: #000000;
+}
+
+
+
+
+
+
+
+/* header終わり */
+#noren {
+  background-image: url("../images/Web 1920 – 5.png");
+  width:100%;
+  height: 650px;
+  background-size:cover;
+  object-fit: cover;
+  position: relative;
+}
+
+#noren div{
+position: absolute;
+top:24%;
+left: 2%;
+}
+
+#noren h1{
+  color: #000000;
+   font-family: "祥南行書体",'游明朝体+36ポかな','YuMincho +36p Kana','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体', serif;
+  
+  font-size:120px;
+}
+.kankaku {
+  margin-top: 6%;
+  margin-left: 1%;
+}
+
+#noren  h1 span{
+  color: white; '游明朝体+36ポかな','YuMincho +36p Kana','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',
+}
+
+#noren h6{
+color: #000000;
+font-family:"Sawarabi Mincho" ;
+font-size: 15px;
+margin: 0 20%;
+}
+
+#noren h6 span{
+  color: #0000FF;
+}
+
+#category {
+  width: 100%;
+  height: 650px;
+  background-color: #ffa07a;
+  font-family:"Sawarabi Mincho" ;
+} 
+
+#category h3{
+  font-size:40px;
+  font-weight:lighter;
+
+}
+
+
+.category-type{
+  font-family:"Sawarabi Mincho" ;
+  font-size:25px;
+  margin:1%
+
+}
+
+.product {
+  
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  text-align:center;
+  margin: 2px;
+  
+}
+
+.product p{
+  width: 250px;
+  
+}
+
+
+
+#rank h3{
+  font-size:40px;
+  font-weight:lighter;
+  margin: 50px 0 20px 0;
+  
+}
+
+.bestranking {
+  display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+#rank img{
+  width: 50%;
+}
+
+#rank h6{
+  font-family:"Sawarabi Mincho" ;
+  font-size: 20px;
+}
+
+#rank p{
+  font-family:"Sawarabi Mincho" ;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: #ffa07a;
+}
