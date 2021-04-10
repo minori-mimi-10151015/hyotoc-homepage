@@ -15,7 +15,8 @@ body{
   margin:1%;
 }
 
-.logo {
+.logo  {
+  
   color:#008000;
   font-size: 60px;
   font-family:"Times New Roman";
@@ -67,7 +68,9 @@ b{
   color: #000000;
 }
 
-
+.bottom a:hover {
+  color:#C0C0C0;
+}
 
 
 
@@ -111,9 +114,15 @@ font-size: 15px;
 margin: 0 20%;
 }
 
-#noren h6 span{
+#noren a{
   color: #0000FF;
 }
+
+#noren a:hover{
+  color: #0000FF;
+  text-decoration:underline 2px #0000FF ;
+}
+
 
 #category {
   width: 100%;
@@ -157,6 +166,7 @@ margin: 0 20%;
   font-size:40px;
   font-weight:lighter;
   margin: 50px 0 20px 0;
+  font-family:"Sawarabi Mincho" ;
   
 }
 
