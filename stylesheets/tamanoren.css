@@ -74,21 +74,112 @@ b{
 
 
 
+.osusume-tamanoren {
+  display: flex;
+  margin-top: 30px;
+}
+
+.osusume-tamanoren h5{
+  font-family:"Sawarabi Mincho";
+  font-size:20px ;
+  font-weight: lighter;
+  margin-left:10px;
+}
+
+h1{
+  font-family: "Sawarabi Mincho";
+  font-size:55px ;
+  text-align: right;
+  color: #696969;
+}
+
+.osusume-tamanoren img{
+text-align: center;
+width:70%;
+margin: auto;
+}
+
+.goannai h5{
+  font-size:20px;
+  font-family: "Sawarabi Mincho";
+  color:#a52a2a;
+}
+
+.fuji-top {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 40px;
+}
+
+.nouki {
+  margin-top: 20px;
+}
+
+.nouki span{
+  color:#a52a2a;
+}
+
+.fuji-top img {
+  width:80%;
+}
+
+.fuji-top h3{
+  font-family: "Sawarabi Mincho";
+  margin-top:270px;
+}
+
+.fuji-top p{
+  font-family: "Sawarabi Mincho";
+}
+
+.fuji-top h3{
+  font-family: "Sawarabi Mincho";
+  font-size: 50px;
+  color:#696969;
+}
+
+.big-picture{
+  display: flex;
+  justify-content: flex-end;
+  margin-top:20px;
+  font-family: "Sawarabi Mincho";
+  
+}
+
+.big-picture img{
+ width:80%;
 
 
+}
 
+.big-picture h3{
+ color: #696969;
+  margin: 90px 90px 0 0 ;
 
+}
 
+.big-picture table{
+  margin: 20px 20px;
+}
 
+.bessun  {
+  display: flex;
+  
+}
 
+.bessun p{
+  margin-left:25px;
+  color:#8b4513;
+}
 
-
-
-
-
-
+.bessun b{
+  font-size: 16px;
+  font-family: "Sawarabi Mincho";
+  margin-left:25px ;
+}
 
 footer{
   margin-top: 50px;
   background-color: #ffa07a;
 }
+
